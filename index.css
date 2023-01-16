@@ -3,58 +3,151 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 .links {
     text-align: center;
     vertical-align: baseline;
 }
+
 a {
     text-decoration: none;
     color: white;
 }
-.bolded { font-weight: bold; }
+
+.bolded {
+    font-weight: bold;
+}
+
 .box {
     height: 100%;
     width: 100%;
@@ -67,9 +160,9 @@ a {
     border-radius: 25px;
     padding: 20px;
 }
+
 .menuItem {
     height: 50px;
-    /* width: 50%; */
     margin: 5%;
     display: inline-block;
     text-align: center;
@@ -79,89 +172,112 @@ a {
     border-radius: 25px;
     padding: 25px;
 }
+
 body {
     font-family: "Roboto Mono", sans-serif;
 }
+
 .box1 {
     background-color: #FF764E;
-    width: 20%;
+    width: 17%;
     color: white;
 }
+
 .box2 {
     background-color: #5ED3EB;
-    width: 20%;
+    width: 17%;
 }
+
 .box3 {
     background-color: #FFCD69;
-    width: 20%;
+    width: 17%;
 }
+
 h1 {
     font-size: 72px;
 }
+
 #headline {
     font-family: "Chelsea Market", sans-serif;
 }
+
 .hdrBox {
     width: 100%;
-    border: 2px solid red;
-    /* margin: 100px; */
 }
+
 .hdrImage {
     border-radius: 1000px;
     width: 35%;
     display: inline-block;
-    
-    align-items: center;
+    margin-left: 200px;
 }
+
 .hdrText {
     display: inline-block;
     width: 50%;
-    border: 2px solid red;
 }
+
 .bodyBox {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
 }
+
 .fireBox {
-    /* border: 2px solid red; */
     width: 50%;
     margin: 0 auto;
 }
+
 .fireImg {
+    width: 50%;
+    scale: 50%;
+    margin: auto;
     display: block;
-    /* width: 100%; */
-    height: auto;
-    max-width: 50%;
-    /* scale: 50%; */
-    margin-left: -50px;
-    /* margin: auto; */
-    /* border: 2px solid red; */
 }
+
 .fireText {
-    width: 100%;
+    width: 50%;
     text-align: center;
-    /* border: 2px solid red; */
+    margin: auto;
+    display: block;
 }
+
 .campBox {
     width: 50%;
     margin: 0 auto;
 }
+
 .campImg {
     width: 50%;
     scale: 50%;
-    border: 2px solid red;
+    margin: auto;
+    display: block;
 }
+
 .campText {
     width: 50%;
     text-align: center;
+    margin: auto;
+    display: block;
 }
+
 .introBox {
     background-color: #DDB9A3;
     color: white;
     text-align: center;
     font-size: 24px;
-    margin: 5%
+    margin: 5%;
+    padding: 30px;
 }
+
 footer {
+    width: 100%;
+}
+
+.footNav {
     background-color: #F9E7DC;
+}
+
+.footImg {
+    height: 25%;
+    width: 100%;
 }
